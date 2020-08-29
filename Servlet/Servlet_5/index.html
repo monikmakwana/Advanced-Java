@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Student Details</title>
+</head>
+<body>
+	<h3>Enter Student Details</h3>
+	<form action="registration" method="post">
+	<table>
+	<tr>
+		<td>Roll Number : </td>
+		<td><input type="text" name="rno"></td>
+	</tr>
+	<tr>
+		<td>First Name :</td>
+		<td><input type="text" name="fname"></td>
+	</tr>
+	<tr>
+		<td>Middle Name :</td>
+		<td><input type="text" name="mname"></td>
+	</tr>
+	<tr>
+		<td>Last Name :</td>
+		<td><input type="text" name="lname"></td>
+	</tr>
+	
+	<tr>
+		<td>Courses :</td>
+		<td>
+			<select name="Courses">
+				<option value="" selected="selected" disabled="disabled">Select your Course</option>
+				<option value="MCA">MCA</option>
+				<option value="MBA">MBA</option>
+				<option value="Msc">Msc</option>
+				<option value="PGDCA">PGDCA</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>Gender:</td>
+		<td><input type="radio" name="gen" value="Male">Male
+		<input type="radio" name="gen" value="Female">Female
+		</td>		
+	</tr>
+	<tr>
+		<td>Address :</td>
+		<td> <textarea rows="4" cols="20" name="add"></textarea> </td>
+	</tr>
+	</table>
+	<br>
+	<input type="reset">
+	<input type="submit" name="submit" value="Submit">
+		
+	</form>
+</body>
+</html>

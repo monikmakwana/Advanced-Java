@@ -1,0 +1,15 @@
+<web-app>
+ <servlet>
+      <servlet-name>servlet_5</servlet-name>
+      <servlet-class>Student</servlet-class>
+   </servlet>
+ 
+   
+ 
+   <servlet-mapping>
+      <servlet-name>servlet_5</servlet-name>
+      <url-pattern>/registration</url-pattern>
+   </servlet-mapping>
+   
+
+</web-app>

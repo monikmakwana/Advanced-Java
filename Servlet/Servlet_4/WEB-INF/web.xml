@@ -1,0 +1,19 @@
+<web-app>
+ <servlet>
+      <servlet-name>Servlet_4</servlet-name>
+      <servlet-class>ArithmaticOperations</servlet-class>
+   </servlet>
+ 
+   
+ 
+   <servlet-mapping>
+      <servlet-name>Servlet_4</servlet-name>
+      <url-pattern>/arithmatic</url-pattern>
+   </servlet-mapping>
+   
+   <error-page>
+	<exception-type>java.lang.ArithmeticException</exception-type>
+	<location>/WEB-INF/ErrorHandler.html</location>
+	</error-page>
+
+</web-app>

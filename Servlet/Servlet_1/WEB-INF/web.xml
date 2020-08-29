@@ -1,0 +1,26 @@
+<web-app>
+	
+	<servlet>
+      <servlet-name>Index</servlet-name>
+      <servlet-class>Login</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Welcome</servlet-name>
+		<servlet-class>Welcome</servlet-class>
+	</servlet>
+ 
+   
+ 
+	<servlet-mapping>
+      <servlet-name>Index</servlet-name>
+      <url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+      <servlet-name>Welcome</servlet-name>
+      <url-pattern>/Welcome</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>
